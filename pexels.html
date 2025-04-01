@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Elements</title>
+</head>
+<body>
+
+    <header>
+        <h1>JOB PROFESSIONS</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>List of Careers</h2>
+            <ol type="I">
+                <li>Engineer</li>
+                <li>Architect</li>
+                <li>Surveyor</li>
+                <li>Doctor</li>
+                <li>Human Reource</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Tokyo Towers, Minato Japan</h2>
+            <img src="https://images.pexels.com/photos/31252466/pexels-photo-31252466.jpeg" alt="Beautiful landscape" width="500">
+        </section>
+
+        <section>
+            <h2>Contact Details</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Mobile</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Kamau Njoroge</td>
+                        <td>112-80100</td>
+                        <td>0708-846-930</td>
+                        <td>knjoroge@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Omondi Omosh</td>
+                        <td>201-80100</td>
+                        <td>0729-264-431</td>
+                        <td>omosh@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Kalonzo Musyoks</td>
+                        <td>303-80100</td>
+                        <td>0707-873-361</td>
+                        <td>kalonzom@gamil.com</td>
+                    </tr>
+                    <tr>
+                        <td>Khaligraph Pizzo</td>
+                        <td>101-80100</td>
+                        <td>0721-234-765</td>
+                        <td>sarah.jones@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Bassam Ahmed</td>
+                        <td>203-80100</td>
+                        <td>0791-665-790</td>
+                        <td>bahmed@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Registration Form</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>User Registration</legend>
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="8"><br><br>
+
+                    <label for="date">Date of Birth:</label>
+                    <input type="date" id="date" name="date" required><br><br>
+
+                    <label for="county">County:</label>
+                    <select id="county" name="county">
+                        <option value="ki">Kiambu</option>
+                        <option value="hm">Homa Bay</option>
+                        <option value="ma">Machakos</option>
+                        <option value="other">Other</option>
+                    </select><br><br>
+
+                    <p>Gender:</p>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other_gender" name="gender" value="other">
+                    <label for="other_gender">Other</label><br><br>
+
+                    <p>Interests:</p>
+                    <input type="checkbox" id="cooking" name="interests" value="cooking">
+                    <label for="cooking">Cooking</label><br>
+                    <input type="checkbox" id="music" name="interests" value="music">
+                    <label for="music">Music</label><br>
+                    <input type="checkbox" id="exercising" name="interests" value="exercising">
+                    <label for="exercising">Exercising</label><br><br>
+
+                    <input type="submit" value="Register">
+                </fieldset>
+            </form>
+        </section>
+
+        <section>
+            <h2>Audio Example</h2>
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <section>
+            <h2>Video Example</h2>
+            <video width="320" height="240" controls>
+                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 HTML5 Assignment</p>
+    </footer>
+
+</body>
+</html>
